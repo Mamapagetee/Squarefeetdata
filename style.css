@@ -1,4 +1,4 @@
-/* This is for the desktop site*/
+/* This is for the mobile site*/
 * {
  margin: 0;
  padding: 0;
@@ -25,21 +25,13 @@ text-align: center;
 
 
 
-/* This is for the tablet site*/
-@media only screen and (max-width:768px) {
+/* This is for the tablet, and desktop site*/
+@media only screen and (min-width:768px) {
 body {
- background-color: white;
+ background-color: blue;
  
  }
 
 
 }
 
-/* This is for the mobile site*/
-@media only screen and (max-width:700px) {
- body {
- background-color:coral;
- }
-
-
-}
