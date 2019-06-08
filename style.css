@@ -21,10 +21,11 @@ color: white; !important;
 
 
 #sfdlogotext{
-position:relative;
+position:absolute;
 top: 8px;
-left:-300px;
+left: 50px;
 line-height:30px;
+letter-spacing: 4px;
 }
 
 #dropdown {
