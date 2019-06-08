@@ -13,6 +13,7 @@ text-align: center;
 }
 
 .navbar {
+position: absolute;
 background-color:#B90103;
 height: 70px;
 width: 100%;
