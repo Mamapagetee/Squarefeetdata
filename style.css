@@ -30,8 +30,9 @@ top: -100px;
 #dropdown {
 height:40px;
 width:40px;
+position:absolute;
+top: 15px;
 right: 20px;
-top:15px;
 }
 
 
