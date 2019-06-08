@@ -24,6 +24,7 @@ color: white; !important;
 position:relative;
 top: 15px;
 left:-45px;
+line-height:10px;
 }
 
 #dropdown {
