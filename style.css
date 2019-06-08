@@ -14,7 +14,6 @@ text-align: center;
 
 .navbar {
 background-color:#B90103;
-position:absolute;
 height: 70px;
 width: 100%;
 color: white; !important;
@@ -22,8 +21,8 @@ color: white; !important;
 
 
 #sfdlogotext{
-left: 60px;
-top: -100px;
+position:relative;
+top: 15px;
 
 }
 
