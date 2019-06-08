@@ -4,17 +4,17 @@
  padding: 0;
 }
 
-head { 
- background-color: red;
- 
-}
-
 body {
 background-color:coral;
 color:white;
 font-family: Zapf-Chancery;
 font-size: 70px;
 text-align: center;
+}
+
+.navbar {
+background-color:red;
+
 }
 
 
