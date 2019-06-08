@@ -7,13 +7,13 @@
 body {
 background-color:coral;
 color:white;
-font-family: Zapf-Chancery;
+font-family: 'Open Sans', sans-serif;
 font-size: 20px;
 text-align: center;
 }
 
 .navbar {
-background-color:red;
+background-color:#B90103;
 height: 70px;
 width: 100%;
 }
