@@ -28,6 +28,14 @@ line-height:30px;
 letter-spacing: 4px;
 }
 
+#sfdlogotextdata{
+position:absolute;
+top: 13px;
+left: 50px;
+letter-spacing: 4px;
+ font-size: 15px;
+}
+
 #dropdown {
 height:40px;
 width:40px;
