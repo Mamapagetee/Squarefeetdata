@@ -19,7 +19,11 @@ width: 100%;
 }
 
 
-#sfdlogotext
+#sfdlogotext{
+left: 60px;
+top: 60px;
+
+}
 
 
 
