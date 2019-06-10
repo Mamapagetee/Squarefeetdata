@@ -6,7 +6,7 @@
 
 body {
 background-color:White;
-color:black;
+color:black; !important;
 font-family: 'Open Sans', sans-serif;
 font-size: 20px;
 text-align: center;
@@ -55,7 +55,6 @@ right: 20px;
 /* This is for the tablet, and desktop site (we can separate these later if we want to.)*/
 @media only screen and (min-width:768px) {
 body {
-color:#000;
  
  }
 
