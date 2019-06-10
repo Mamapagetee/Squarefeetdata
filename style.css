@@ -55,14 +55,13 @@ right: 20px;
 /* This is for the tablet, and desktop site (we can separate these later if we want to.)*/
 @media only screen and (min-width:768px) {
 body {
-
+color:#000;
  
  }
 
  #dropdown {
  display: none;
- 
- }
+  }
  
 
 }
