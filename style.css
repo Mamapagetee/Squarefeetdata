@@ -65,7 +65,7 @@ body {
  display: none;
   }
  .navtext {
- display: initial;
+ display: list-item;
  color: white;
  list-style: none;
  text-decoration: none;
