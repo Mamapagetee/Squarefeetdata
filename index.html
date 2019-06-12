@@ -1,0 +1,59 @@
+<!Doctype HTML>
+<html>
+<!--Metadata, data defining data. Viewport, the view the client gets on their device.-->
+<meta name="Viewport" content="Width=device-width, initial scale=1.0">
+<title> Square Feet Data </title>
+  <!-- This is the icon complimenting the title of the website on the tab. Also known as a favicon -->
+<link rel ="shortcut icon" type="image/png" href="favicon.png">
+ <!-- this connects the css style sheet to the html pages -->
+<link rel="stylesheet" href ="style.css">
+<head>
+<script>
+function openSlideMenu() {
+document.getElementById('menu').style.width = '250px';
+document.getElementById('content').style.marginRight = '250px';
+}
+function closeSideMenu() {
+document.getElementById('menu').style.width = '';
+document.getElementById('content').style.marginRight = '';
+}
+</script>
+  <div class="navbar"> 
+    <p id="sfdlogotext"><b>SQUARE</b> FEET  </p>
+    <p id="sfdlogotextdata"> DATA </p>
+  <span id ="dropdown">
+    <a href="#" onclick ="openSlideMenu()">
+      <svg width ="30" height="30">
+        <path d="M0,5,30,5" stroke="#ffffff" stroke-width="5"/>
+            <path d="M0,14,30,14" stroke="#ffffff" stroke-width="5"/>
+            <path d="M0,23,30,23" stroke="#ffffff" stroke-width="5"/>
+      </svg>
+    </a>
+    </span>
+	</div>
+<div class="navtext">
+<a href="#">Placeholder</a>
+<a href="#">Placeholder</a>
+<a href="#">Banana</a>
+<a href="#">Goat</a>
+</div>
+</head>
+<body>
+<span class ="slide>
+<a href="#" onclick="openSlideMenu()">
+</a>
+</span>
+<div id="menu" class="nav">
+<a href="#" class="close" onclick="closeSideMenu()">
+<p> close </p>
+</a>
+<a href="#">Placeholder</a>
+<a href="#">Placeholder</a>
+<a href="#">Banana</a>
+<a href="#">Goat</a>
+</div>
+<div id="content">
+<h1> Content</h1>
+</div>
+</body>
+</html>

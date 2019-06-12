@@ -1,0 +1,135 @@
+/* This is for the mobile site*/
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+background-color:White;
+color:black; !important;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+text-align: center;
+overflow-x: hidden;
+}
+.nav {
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index:1;
+	top:0;
+	right:0;
+	background-color: #B90103;
+	opacity:0.9;
+	overflow-x:hidden;
+	padding-top: 60px;
+	transition:0.7s;
+}
+.nav a {
+	display: block;
+	padding:20px 30px;
+	font-size: 25px;
+	text-decoration:none;
+	color: #fff;
+}
+.nav a:hover {
+color: #c9cacc
+transition:0.4s;	
+}
+
+.nav a:active {
+color: #000;	
+}
+.nav .close {
+position:absolute;
+top:0;
+right:20px;
+}
+#content {
+padding:20px;
+transition: margin-right: 0.7s;
+overflow:hidden;
+width:100%
+}
+
+.navbar {
+background-color:#B90103;
+height: 100px;
+width: 100%;
+color: white;
+}
+
+
+#sfdlogotext{
+position:absolute;
+top: 13px;
+left: 130px;
+line-height:30px;
+letter-spacing: 4px;
+font-size: 25px;
+}
+
+#sfdlogotextdata{
+position:absolute;
+top: 45px;
+left: 210px;
+letter-spacing: 8px;
+ font-size: 15px;
+}
+
+#dropdown {
+height:40px;
+width:40px;
+position:absolute;
+top: 15px;
+right: 20px;
+}
+
+.navtext {
+	display:none;
+}
+
+
+
+
+
+
+
+/* This is for the tablet, and desktop site (we can separate these later if we want to.)*/
+@media only screen and (min-width:768px) {
+body {
+ 
+ }
+#sfdlogotext {
+left: 150px;
+top:25px;
+}
+#sfdlogotextdata {
+left:230px;
+top:57px;	
+}
+ #dropdown {
+ display: none;
+  }
+ .navtext {
+	 display:block;
+	 position:absolute;
+	 right: 50px; 
+	 top: 60px;
+	 word-spacing:40px;
+ }
+ .navtext a {
+	 text-decoration:none;
+	 color: white;
+	 font-family:'Open Sans', sans-serif;
+	 font-size:15px;
+ }
+ .navtext a:hover{
+	color:#c9cacc; 
+	transition:0.4s;
+ }
+ .navtext a:active {
+	 color: #000;
+ }
+}
+
