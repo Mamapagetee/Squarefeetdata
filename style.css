@@ -63,7 +63,7 @@ color: white;
 #sfdlogotext{
 position:absolute;
 top: 13px;
-left: 130px;
+left: 50px;
 line-height:30px;
 letter-spacing: 4px;
 font-size: 25px;
@@ -72,7 +72,7 @@ font-size: 25px;
 #sfdlogotextdata{
 position:absolute;
 top: 45px;
-left: 210px;
+left: 130px;
 letter-spacing: 8px;
  font-size: 15px;
 }
