@@ -45,7 +45,7 @@ top: 15px;
 right: 20px;
 }
 
-.navtext {
+#navtext {
 list-style: none;
  text-decoration: none;
  color: White;
@@ -67,7 +67,7 @@ body {
  #dropdown {
  display: none;
   }
- .navtext {
+ #navtext {
  }
 
 }
