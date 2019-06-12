@@ -45,6 +45,9 @@ top: 15px;
 right: 20px;
 }
 
+.navtext {
+display: none;
+}
 
 
 
@@ -61,7 +64,12 @@ body {
  #dropdown {
  display: none;
   }
- 
+ .navtext {
+ display: initial;
+ color: white;
+ list-style: none;
+ text-decoration: none;
+ }
 
 }
 
