@@ -9,6 +9,9 @@
 <link rel="stylesheet" href ="style.css">
 <head>
 <script>
+function openDarkMenu () {
+document.getElementById('menu2').style.width = "40%"
+}
 function openSlideMenu() {
 document.getElementById('menu').style.width = '60%';
 document.getElementById('content').style.marginRight = '250px';
@@ -39,12 +42,15 @@ document.getElementById('content').style.marginRight = '';
 </div>
 </head>
 <body>
-<span class ="slide>
+<span class ="slide">
 <a href="#" onclick="openSlideMenu()">
 </a>
+<a href ="#" onclick="openDarkMenu()">
 </span>
 <div id="menu" class="nav">
 <a href="#" class="close" onclick="closeSideMenu()">
+<div id="menu2" class="darkmenu">
+<a href="#" class="close" onclick="closeDarkMenu()">
 <p> close </p>
 </a>
 <a href="#">Placeholder</a>
