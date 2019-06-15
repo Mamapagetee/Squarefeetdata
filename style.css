@@ -42,7 +42,7 @@ color: #000;
 .nav .close {
 position:absolute;
 top:0;
-right:20px;
+left:20px;
 }
 #content {
 padding:20px;
