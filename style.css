@@ -23,7 +23,6 @@ overflow-x: hidden;
 	overflow-x:hidden;
 	padding-top: 40px;
 	transition:0.7s;
-	opacity: 0.9;
 }
 .nav a {
 	display: block;
@@ -63,7 +62,7 @@ color: white;
 #sfdlogotext{
 position:absolute;
 top: 13px;
-left: 50px;
+left: 50%;
 line-height:30px;
 letter-spacing: 4px;
 font-size: 25px;
@@ -72,7 +71,7 @@ font-size: 25px;
 #sfdlogotextdata{
 position:absolute;
 top: 45px;
-left: 130px;
+left: 56%
 letter-spacing: 8px;
  font-size: 15px;
 }
