@@ -23,6 +23,7 @@ overflow-x: hidden;
 	overflow-x:hidden;
 	padding-top: 40px;
 	transition:0.7s;
+	opacity: 0.9;
 }
 .nav a {
 	display: block;
